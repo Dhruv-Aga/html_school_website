@@ -1,0 +1,372 @@
+<html>
+<head>
+    <link rel="shortcut icon" href="images/logo.ico"/>
+    <title>Simpkins School</title>
+    <link rel="stylesheet" href="css/my.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/nav.js"></script>
+    <script src="js/jquery.js"></script>
+</head>
+<body>
+<div class="container">
+
+    <div class="header">
+        <a href="#">
+            <div class="col-lg-2" id="logo">
+                <img src="images/logo.png" id="1">
+            </div>
+        </a>
+        <a href="#">
+            <div class="col-md-8" id="heading">
+                SIMPKINS SCHOOL
+            </div>
+        </a>
+        <button class="col-md-2 btn" id="fb-connect">
+            <a href="#"><img class="fig" id="2" src="images/icons8-Facebook Filled.png"></a>
+        </button>
+
+        <div id="clear"></div>
+    </div>
+
+    <div class="nav col-md-12">
+        <div id="menu" class="btn-group col-md-6">
+            <img onmouseenter="nav_bar()" onclick="nav_bar()" id="menu-button" src="images/Xbox%20Menu.png">
+            <p id="me">Menu</p>
+        </div>
+        <div id="sup_nav"
+             class="btn-group col-md-6">
+            <a href="http://www.simpkins.co.in/downloads/">
+                <div class="btn-group sup_but"><img id="3" src="images/down.png">Downloads</div>
+            </a>
+            <a href="http://www.simpkins.co.in/press_release/">
+                <div class="btn-group sup_but"><img id="4" src="images/press.png">Press Release</div>
+            </a>
+        </div>
+
+        <div id="main_nav" class=" col-md-12">
+            <a href="index.html">
+                <button onmousemove="show();" onclick="content(0)" class="btn">Home</button>
+            </a>
+            <button onclick="enter(0);" class="btn">About Us</button>
+            <button onclick="enter(1);" class="btn">Facilities</button>
+            <button onclick="enter(2);" class="btn">Student Life</button>
+            <button onclick="enter(3);" class="btn">Our Team</button>
+            <button onclick="enter(4);" class="btn">Academics</button>
+            <button onclick="enter(5);" class="btn">Co-Curiculum</button>
+            <button onclick="enter(6);" class="btn">Get in Touch</button>
+        </div>
+
+
+        <div>
+            <div id="home" class="col-lg-12 ">
+                <img src="images/1.jpg" class="mySlide"/>
+                <img src="images/2.jpg" class="mySlide"/>
+                <img src="images/3.jpg" class="mySlide"/>
+            </div>
+            <div id="aboutUs" class="sub col-lg-12">
+                <div class="grand-menu col-md-3">
+                    <menu class="btn-group-vertical">
+                        <button class="btn" onmousemove="slideShow(4)" onclick="content(4)">Director&#39;s Message
+                        </button>
+                        <button class="btn" onmousemove="slideShow(5)" onclick="content(5)">Manager &#39;s Message
+                        </button>
+                        <button class="btn" onmousemove="slideShow(6)" onclick="content(6)">Principal&#39;s Message
+                        </button>
+                        <button class="btn" onmousemove="slideShow(7)" onclick="content(7)">Mission &#38; Vision
+                        </button>
+                        <button class="btn" onmousemove="slideShow(8)" onclick="content(8)">Fast Facts</button>
+                        <button class="btn" onmousemove="slideShow(9)" onclick="content(9)">Achievements</button>
+                    </menu>
+                </div>
+                <div class="slideBar">
+                    <div class="slidesKeLiye" id="slide4">
+                        <img src="images/1%20(1).jpg" class="ing">
+                    </div>
+                    <div class="slidesKeLiye" id="slide5">
+                        <img src="images/1%20(2).jpg" class="ing">
+                    </div>
+                    <div class="slidesKeLiye" id="slide6">
+                        <img src="images/1%20(3).jpg" class="ing">
+                    </div>
+                    <div class="slidesKeLiye" id="slide7">
+                        <img src="images/1%20(4).jpg" class="ing">
+                    </div>
+                    <div class="slidesKeLiye" id="slide8">
+                        <img src="images/1%20(5).jpg" class="ing">
+                    </div>
+                    <div class="slidesKeLiye" id="slide9">
+                        <img src="images/1%20(6).jpg" class="ing">
+                    </div>
+                </div>
+            </div>
+            <div id="facilities" class="sub col-lg-12">
+                <div class="grand-menu col-md-3">
+                    <menu class="btn-group-vertical">
+
+                        <button class="btn" onmousemove="slideShow(10)" onclick="content(10)">Computer Lab</button>
+                        <button class="btn" onmousemove="slideShow(11)" onclick="content(11)">Digital Classrooms
+                        </button>
+                        <button class="btn" onmousemove="slideShow(12)" onclick="content(12)">Infirnary</button>
+                        <button class="btn" onmousemove="slideShow(13)" onclick="content(13)">Laboratories</button>
+                        <button class="btn" onmousemove="slideShow(14)" onclick="content(14)">Library</button>
+                        <button class="btn" onmousemove="slideShow(15)" onclick="content(15)">Meditation Room</button>
+                        <button class="btn" onmousemove="slideShow(16)" onclick="content(16)">Security &#38; Safety
+                        </button>
+                        <button class="btn" onmousemove="slideShow(17)" onclick="content(17)">Transportation</button>
+                    </menu>
+                </div>
+                <div class="slideBar">
+                    <div class="slidesKeLiye" id="slide10">
+                        <img src="images/1%20(10).jpg" class="ing">
+                    </div>
+                    <div class="slidesKeLiye" id="slide11">
+                        <img src="images/1%20(8).jpg" class="ing">
+                    </div>
+                    <div class="slidesKeLiye" id="slide12">
+                        <img src="images/1%20(9).jpg" class="ing">
+                    </div>
+                    <div class="slidesKeLiye" id="slide13">
+                        <img src="images/1%20(1).jpg" class="ing">
+                    </div>
+                    <div class="slidesKeLiye" id="slide14">
+                        <img src="images/1%20(11).jpg" class="ing">
+                    </div>
+                    <div class="slidesKeLiye" id="slide15">
+                        <img src="images/1%20(12).jpg" class="ing">
+                    </div>
+                    <div class="slidesKeLiye" id="slide16">
+                        <img src="images/1%20(13).jpg" class="ing">
+                    </div>
+                    <div class="slidesKeLiye" id="slide17">
+                        <img src="images/1%20(1).jpg" class="ing">
+                    </div>
+                </div>
+            </div>
+
+            <div id="studentLife" class="sub col-lg-12">
+                <div class="grand-menu col-md-3">
+                    <menu class="btn-group-vertical">
+                        <button class="btn" onmousemove="slideShow(18)" onclick="content(18)">Hobby Clubs</button>
+                        <button class="btn" onmousemove="slideShow(19)" onclick="content(19)">House System</button>
+                        <button class="btn" onmousemove="slideShow(20)" onclick="content(20)">Social Commitment</button>
+                        <button class="btn" onmousemove="slideShow(21)" onclick="content(21)">Student Counceling
+                        </button>
+                        <button class="btn" onmousemove="slideShow(22)" onclick="content(22)">Alumni</button>
+                    </menu>
+                </div>
+                <div class="slideBar">
+                    <div class="slidesKeLiye" id="slide18">
+                        <img src="images/1%20(2).jpg" class="ing">
+                    </div>
+                    <div class="slidesKeLiye" id="slide19">
+                        <img src="images/1%20(3).jpg" class="ing">
+                    </div>
+                    <div class="slidesKeLiye" id="slide20">
+                        <img src="images/1%20(4).jpg" class="ing">
+                    </div>
+                    <div class="slidesKeLiye" id="slide21">
+                        <img src="images/1%20(5).jpg" class="ing">
+                    </div>
+                    <div class="slidesKeLiye" id="slide22">
+                        <img src="images/1%20(6).jpg" class="ing">
+                    </div>
+                </div>
+            </div>
+
+            <div id="ourTeam" class="sub col-lg-12">
+                <div class="grand-menu col-md-3">
+                    <menu class="btn-group-vertical">
+                        <button class="btn" onmousemove="slideShow(23)" onclick="content(23)">What Sets <br>Us Apart
+                        </button>
+                        <button class="btn" onmousemove="slideShow(24)" onclick="content(24)">Faculty Enchancement
+                        </button>
+                        <button class="btn" onmousemove="slideShow(25)" onclick="content(25)">Opportunities<br> with Us
+                        </button>
+                    </menu>
+                </div>
+                <div class="slideBar">
+                    <div class="slidesKeLiye" id="slide23">
+                        <img src="images/1%20(10).jpg" class="ing">
+                    </div>
+                    <div class="slidesKeLiye" id="slide24">
+                        <img src="images/1%20(8).jpg" class="ing">
+                    </div>
+                    <div class="slidesKeLiye" id="slide25">
+                        <img src="images/1%20(9).jpg" class="ing">
+                    </div>
+                </div>
+            </div>
+            <div id="academics" class="sub col-lg-12">
+                <div class="grand-menu col-md-3">
+                    <menu class="btn-group-vertical">
+                        <button class="btn" onmousemove="slideShow(26)" onclick="content(26)">Affliation</button>
+                        <button class="btn" onmousemove="slideShow(27)" onclick="content(27)">Admission Rules</button>
+                        <button class="btn" onmousemove="slideShow(28)" onclick="content(28)">Curriculum</button>
+                        <button class="btn" onmousemove="slideShow(29)" onclick="content(29)">How we Teach</button>
+                        <button class="btn" onmousemove="slideShow(30)" onclick="content(30)">Enhancement & <br>Enrichment
+                            Classes
+                        </button>
+                        <button class="btn" onmousemove="slideShow(31)" onclick="content(31)">Experiential Learning
+                        </button>
+                    </menu>
+                </div>
+                <div class="slideBar">
+                    <div class="slidesKeLiye" id="slide26">
+                        <img src="images/1%20(10).jpg" class="ing">
+                    </div>
+                    <div class="slidesKeLiye" id="slide27">
+                        <img src="images/1%20(11).jpg" class="ing">
+                    </div>
+                    <div class="slidesKeLiye" id="slide28">
+                        <img src="images/1%20(13).jpg" class="ing">
+                    </div>
+                    <div class="slidesKeLiye" id="slide29">
+                        <img src="images/1%20(12).jpg" class="ing">
+                    </div>
+                    <div class="slidesKeLiye" id="slide30">
+                        <img src="images/1%20(13).jpg" class="ing">
+                    </div>
+                    <div class="slidesKeLiye" id="slide31">
+                        <img src="images/1%20(1).jpg" class="ing">
+                    </div>
+
+                </div>
+            </div>
+            <div id="coCirriculum" class="sub col-lg-12">
+                <div class="grand-menu col-md-3">
+                    <menu class="btn-group-vertical">
+                        <button class="btn" onmousemove="slideShow(32)" onclick="content(32)">Music-Dance-Drama</button>
+                        <button class="btn" onmousemove="slideShow(33)" onclick="content(33)">Sports</button>
+                        <button class="btn" onmousemove="slideShow(34)" onclick="content(34)">Art & Craft</button>
+                        <button class="btn" onmousemove="slideShow(35)" onclick="content(35)">Trips & Excrusions
+                        </button>
+                        <button class="btn" onmousemove="slideShow(36)" onclick="content(36)">Just for Fun</button>
+                        <button class="btn" onmousemove="slideShow(37)" onclick="content(37)">Special Asssemblies
+                        </button>
+                        <button class="btn" onmousemove="slideShow(38)" onclick="content(38)">Event Update</button>
+                    </menu>
+                </div>
+                <div class="slideBar">
+                    <div class="slidesKeLiye" id="slide32">
+                        <img src="images/1%20(12).jpg" class="ing">
+                    </div>
+                    <div class="slidesKeLiye" id="slide33">
+                        <img src="images/1%20(2).jpg" class="ing">
+                    </div>
+                    <div class="slidesKeLiye" id="slide34">
+                        <img src="images/1%20(3).jpg" class="ing">
+                    </div>
+                    <div class="slidesKeLiye" id="slide35">
+                        <img src="images/1%20(4).jpg" class="ing">
+                    </div>
+                    <div class="slidesKeLiye" id="slide36">
+                        <img src="images/1%20(5).jpg" class="ing">
+                    </div>
+                    <div class="slidesKeLiye" id="slide37">
+                        <img src="images/1%20(6).jpg" class="ing">
+                    </div>
+                    <div class="slidesKeLiye" id="slide38">
+                        <img src="images/1%20(8).jpg" class="ing">
+                    </div>
+                </div>
+            </div>
+            <div id="getInTouch" class="sub col-lg-12">
+                <div class="grand-menu col-md-3">
+                    <menu class="btn-group-vertical">
+                        <button class="btn" onmousemove="slideShow(39)" onclick="content(39)">Contact Us</button>
+                        <button class="btn" onmousemove="slideShow(40)" onclick="content(40)">Facebook Page</button>
+                        <button class="btn" onmousemove="slideShow(41)" onclick="content(41)">Direction</button>
+                        <button class="btn" onmousemove="slideShow(42)" onclick="content(42)">Google Earth Map</button>
+                    </menu>
+
+                </div>
+                <div class="slideBar">
+                    <div class="slidesKeLiye" id="slide39">
+                        <img src="images/1%20(8).jpg" class="ing">
+                    </div>
+                    <div class="slidesKeLiye" id="slide40">
+                        <img src="images/1%20(9).jpg" class="ing">
+                    </div>
+                    <div class="slidesKeLiye" id="slide41">
+                        <img src="images/1%20(3).jpg" class="ing">
+                    </div>
+                    <div class="slidesKeLiye" id="slide42">
+                        <img src="images/1%20(5).jpg" class="ing">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="content" class="main col-md-12">
+        <div id="left_main" class="main col-md-7">
+            <div id="article">
+                <div class="article-heading">Welcome to Simpkins School</div>
+                <div id="moto">
+                    &apos;If your plan is for one year, plant rice;<br>
+                    If your plan is for ten years, plant trees;<br>
+                    If your plan is for a hundred years, Educate
+                    children.&apos;- Confucius
+                </div>
+                <div class="article-summary">
+                    Simpkins School is located in the heart
+                    of the historical city of Agra. The school was founded three decades back with a
+                    commitment to excellence and for providing
+                    opportunities to enable young people to be best
+                    positioned, consequent to their education. Today,
+                    we have grown into one of the city&apos;s
+                    leading institutions with branches across the city,
+                    providing quality education to our students,
+                    facilitated by dedicated educators who are trained
+                    to channelize their energy and resources towards
+                    child-centered qualitative learning. The school
+                    follows the CBSE curriculum and runs from classes
+                    Pre Nursery to 12th. This day-school
+                    is co-educational and the medium of instruction
+                    here is English. School Session runs from April
+                    to March.
+                </div>
+            </div>
+            <div id="alumni-event">
+                <a href="http://www.simpkins.co.in/alumni-registration/">
+                    <img src="images/alumni-event.png">
+                </a>
+            </div>
+            <div id="thoughtOf">
+
+                <h1>Thought for the Day</h1>
+                <div id="thought">
+                    &quot;Success is not the key to happiness.
+                    Happiness is the key to success.
+                    If you love what you are doing,
+                    you will be successful.&quot;
+                </div>
+                <p id="byWhom">-Herman Cain</p>
+            </div>
+
+        </div>
+        <div id="right_main" class="main col-md-4">
+            <div id="fb-page">
+                <p>Facebook Page</p>
+                <a href="https://www.facebook.com/Simpkins-School-Agra-310101402401160/">
+                    <img src="images/1%20(1).jpg" style="height: 30%;width: 30%"/>
+                </a>
+                <a href="https://www.facebook.com/Simpkins-School-Agra-310101402401160/">
+                    <div id="like">
+                        Like
+                    </div>
+                </a>
+            </div>
+            <div id="news-box">
+                <h3>News</h3>
+                <p id="update"></p>
+            </div>
+        </div>
+    </div>
+    <footer>
+    </footer>
+
+</div>
+</body>
+</html>
